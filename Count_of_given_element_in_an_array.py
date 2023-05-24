@@ -1,0 +1,5 @@
+n=int(input())
+lst=list(map(int,input().split()))
+v=int(input())
+s=lst.count(v)
+print(s)
