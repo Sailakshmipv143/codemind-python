@@ -1,9 +1,9 @@
 num=int(input())
-sum=0
+s=0
 num_str=str(num)
 for i in range(len(num_str)):
-    sum+=int(num_str[i])**(i+1)
-if sum==num:
-   print(True)
+    s+=int(num_str[i])**(i+1)
+if s==num:
+    print(True)
 else:
-   print(False)
+    print(False)
