@@ -1,4 +1,4 @@
-def self_div_num(num):
+def selfdivnum(num):
     temp=num
     while temp:
         d=temp%10
@@ -9,5 +9,5 @@ def self_div_num(num):
 n=int(input())
 m=int(input())
 for i in range(n,m+1):
-    if self_div_num(i):
+    if selfdivnum(i):
         print(i,end=" ")
