@@ -1,9 +1,10 @@
-def is_neon_number(num):
- square=num*num
- digit_sum=sum(int(digit)for digit in str(square))
- return digit_sum==num
-num=int(input())
-if is_neon_number(num):
-   print("Neon Number")
+n=int(input())
+sqr=n*n
+sumofdigits=0
+while sqr>0:
+    sumofdigits=sumofdigits+sqr%10
+    sqr=sqr//10
+if(n==sumofdigits):
+    print("Neon Number")
 else:
-   print("Not Neon Number")
+    print("Not Neon Number")
