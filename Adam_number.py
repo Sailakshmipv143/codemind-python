@@ -15,4 +15,3 @@ if a==rev3:
     print("True")
 else:
     print("False")
-    
